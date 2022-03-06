@@ -8,6 +8,7 @@ A entrada consiste de vários casos de teste. A primeira linha de entrada conté
 Para cada caso de entrada imprima uma mensagem indicando se o segundo valor encaixa no primeiro valor, confome exemplo abaixo.
 
 ## solução:
+```
 n = int(input())  
 for i in range(n):  
     x, y = input().split()  
@@ -27,4 +28,6 @@ for i in range(n):
         print("encaixa")  
  
       else:  
-        print("nao encaixa")  
+        print("nao encaixa") 
+```
+ 
