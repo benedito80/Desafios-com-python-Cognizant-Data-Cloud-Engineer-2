@@ -8,6 +8,7 @@ O arquivo de entrada contém 2 valores positivos inteiros quaisquer, não necess
 Imprima todos os valores conforme exemplo abaixo, sempre em ordem crescente.
  
 ## solução:
+```
 X = int(input())  
 Y = int(input())  
 
@@ -19,3 +20,5 @@ elif (X > Y):
     for i in range(Y + 1, X):  
       if (i % 5 == 2) or (i % 5 == 3):  
         print(i)  
+
+```
