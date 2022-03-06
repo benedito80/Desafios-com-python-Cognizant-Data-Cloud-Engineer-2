@@ -1,4 +1,4 @@
-# Desafio:
+# Desafio Encaixa ou Não:
 Paulinho tem em suas mãos um novo problema. Agora a sua professora lhe pediu que construísse um programa para verificar, à partir de dois valores muito grandes A e B, se B corresponde aos últimos dígitos de A.
 
 ## Entrada
@@ -8,23 +8,23 @@ A entrada consiste de vários casos de teste. A primeira linha de entrada conté
 Para cada caso de entrada imprima uma mensagem indicando se o segundo valor encaixa no primeiro valor, confome exemplo abaixo.
 
 ## solução:
-n = int(input())
-for i in range(n):
-    x, y = input().split()
-    teste = 0
-    cont = 0
+n = int(input())  
+for i in range(n):  
+    x, y = input().split()  
+    teste = 0  
+    cont = 0  
     
-    if len(x) < len(y):
-        print("nao encaixa")
+    if len(x) < len(y):  
+        print("nao encaixa")  
  
-    else:
-      for j in range(len(y)):
-        teste -= 1
-        if x[teste] == y[teste]:
-          cont += 1
+    else:  
+      for j in range(len(y)):  
+        teste -= 1  
+        if x[teste] == y[teste]:  
+          cont += 1  
  
-      if cont == len(y):
-        print("encaixa")
+      if cont == len(y):  
+        print("encaixa")  
  
-      else:
-        print("nao encaixa")
+      else:  
+        print("nao encaixa")  
