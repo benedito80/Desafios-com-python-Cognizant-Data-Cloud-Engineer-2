@@ -19,10 +19,8 @@ No intuito de ajudar alguns... aqui está a solução de alguns desafios da plat
 ### Desafios Finais Python
 * <a href="https://github.com/benedito80/Desafios-Cognizant-Data-Cloud-Engineer-2/blob/main/Desafios%20Finais%20Python/Encaixa%20ou%20N%C3%A3o.md
 ">Encaixa ou Não</a>
-
 * <a href="https://github.com/benedito80/Desafios-Cognizant-Data-Cloud-Engineer-2/blob/main/Desafios%20Finais%20Python/N%C3%BAmero%20Primo.md
 ">Número Primo</a>
-
 * <a href="https://github.com/benedito80/Desafios-Cognizant-Data-Cloud-Engineer-2/blob/main/Desafios%20Finais%20Python/Preenchimento%20de%20Vetor%20I.md">Preenchimento de Vetor I</a>
 
 
