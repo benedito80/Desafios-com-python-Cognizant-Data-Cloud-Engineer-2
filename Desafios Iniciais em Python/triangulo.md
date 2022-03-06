@@ -16,6 +16,7 @@ A entrada contém três valores reais.
 O resultado deve ser apresentado com uma casa decimal.
 
 ## solução:
+```
 lados = [float(x) for x in input().split()]  
 
 a = lados[0];  
@@ -28,4 +29,7 @@ if a + b > c and a + c > b and b + c > a:
 else:  
     soma = ((a + b) * c) / 2  
     print(f"Area = {  soma  :.1f}")  
+
+```
+
 
