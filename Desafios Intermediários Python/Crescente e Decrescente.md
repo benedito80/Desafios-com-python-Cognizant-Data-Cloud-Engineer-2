@@ -8,6 +8,7 @@ A entrada é composta por vários casos de teste. Cada caso contém dois valores
 Caso os valores tenham sido digitados na ordem crescente, imprima “Crescente”. No contrário, “Decrescente”.
 
 ## solução:
+```
 X, Y = map(int, input().split())  
 while (X != Y):  
     floor = min(X, Y)  
@@ -17,3 +18,5 @@ while (X != Y):
     elif (X > Y):  
         print("Decrescente")  
     X, Y = map(int, input().split())  
+```
+
