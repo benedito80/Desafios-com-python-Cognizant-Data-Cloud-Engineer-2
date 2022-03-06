@@ -8,6 +8,7 @@ Você receberá seis valores, negativos e/ou positivos.
 Exiba uma mensagem dizendo quantos valores positivos foram lidos. assim como é exibido abaixo no exemplo de saída. Não se esqueça de incluir na mensagem de saída o sufixo " valores positivos", conforme o exemplo abaixo:
 
 ## solução:
+```
 counter = 0  
 
 for number in range(6):  
@@ -16,4 +17,5 @@ for number in range(6):
       counter = counter + 1  
 
 print("{} valores positivos".format(counter))
+```
        
