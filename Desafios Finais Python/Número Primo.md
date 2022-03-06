@@ -8,6 +8,7 @@ A entrada contém vários casos de teste. A primeira linha da entrada contém um
 Para cada caso de teste de entrada, imprima a mensagem “X eh primo” ou “X nao eh primo”, de acordo com a especificação fornecida.
 
 ## solução:
+```
 n = int(input())  
 for i in range(n):  
     num = int(input())  
@@ -22,3 +23,5 @@ for i in range(n):
 
     else:  
       print('{} eh primo'.format(j))  
+```
+
