@@ -1,4 +1,4 @@
-# Desafio:
+# Desafio Triângulo:
 Leia 3 valores reais (A, B e C) e verifique se eles formam ou não um triângulo. Em caso positivo, calcule o perímetro do triângulo (soma de todos os lados) e apresente a mensagem:
 
 Perimetro = XX.X
@@ -16,16 +16,16 @@ A entrada contém três valores reais.
 O resultado deve ser apresentado com uma casa decimal.
 
 ## solução:
-lados = [float(x) for x in input().split()]
+lados = [float(x) for x in input().split()]  
 
-a = lados[0];
-b = lados[1];
-c = lados[2];
+a = lados[0];  
+b = lados[1];  
+c = lados[2];  
 
-if a + b > c and a + c > b and b + c > a:
-    soma = a + b + c
-    print(f"Perimetro = {  soma  :.1f}")
-else:
-    soma = ((a + b) * c) / 2
-    print(f"Area = {  soma  :.1f}")
+if a + b > c and a + c > b and b + c > a:  
+    soma = a + b + c  
+    print(f"Perimetro = {  soma  :.1f}")  
+else:  
+    soma = ((a + b) * c) / 2  
+    print(f"Area = {  soma  :.1f}")  
 
