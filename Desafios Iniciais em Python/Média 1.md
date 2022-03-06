@@ -9,9 +9,12 @@ Calcule e imprima a variável MEDIA conforme exemplo abaixo, com 5 dígitos apó
 
 
 ## solução:
-a = float(input())
+```
+a = float(input()) 
 b = float(input())
 
 media = ( a * 3.5 + b * 7.5) / 11
 
 print(f'MEDIA = { media : .5f}')
+```
+ 
